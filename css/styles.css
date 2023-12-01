@@ -506,8 +506,8 @@ padding: 100px 0 100px;
 	position: fixed;
 	top: 0%;
 	left: 0%;
-	right: 100%;
-	bottom: 100%;
+	/* right: 100%;
+	bottom: 100%; */
 	/* background-color: rgba(46, 47, 66, 0.40); */
 	background-color: green;
 	z-index: 999;
