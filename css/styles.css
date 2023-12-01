@@ -503,7 +503,7 @@ padding: 100px 0 100px;
 
 /* modal form______ */
 .backdrop{
-	position: relative;
+	position: fixed;
 	top: 0%;
 	left: 0%;
 	right: 100%;
