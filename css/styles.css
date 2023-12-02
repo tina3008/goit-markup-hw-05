@@ -575,7 +575,7 @@ cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-closed-button:hover, .icon-closed-button:focus{
+.icon-closed-button:hover, .icon-closed-button:focus {
 	border: none;
 	fill: #ffffff;
 background-color: #404bbf; 
@@ -603,11 +603,15 @@ margin-bottom: 16px;
 	height: 40px;
 	border-radius: 4px;
 	border: 1px solid  rgba(46, 47, 66, 0.40);
-outline: 0px;
+outline: 0px transparent;
 background-color: transparent;
 transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+padding-left: 38px;
 
+}
+.modal-input:hover, .modal-input:focus{
+	border-color: #4D5AE5;
+}
 
 .txt-modal{
 	color: #8E8F99;
@@ -617,18 +621,18 @@ line-height: 1.16em;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
 display: block;
-ine-height: 1.17;
+line-height: 1.17;
 }
 .fild-icon{
 	position: relative;
 }
 .form-icon{
 	position: absolute;
-	top: 0%;
+	top: 50%;
 	left: 16px;
-	 transform: translateY(50%); 
+	transform: translateY(-50%); 
 	fill: #2E2F42;
-	transition:stroke 250ms cubic-bezier(0.4, 0, 0.2, 1), stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus + .form-icon
 {
@@ -732,7 +736,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	
 
 }
-.footer-butom:hover, ..footer-butom:focus{
+.footer-butom:hover, .footer-butom:focus{
 	background-color: #404BBF; 
 }
 .icon-footer{
