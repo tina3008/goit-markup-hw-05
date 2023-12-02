@@ -579,12 +579,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 	border: none;
 	background-color: #404bbf; 
 	fill: #ffffff;
-}
-.icon-closed-button:hover + .icon-closed, 
-.icon-closed-button:focus + .icon-closed{
-	
-	fill: #ffffff;
-}
+
 
 .backdrop-txt{
 	color: var(--NAVY-BLUE, #2E2F42);
