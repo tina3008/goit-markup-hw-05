@@ -501,70 +501,72 @@
           </ul>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-open">
-      <div class="modal">
-        <button class="icon-closed-button">
-          <svg class="icon-closed" width="8" height="8" aria-label="close modal icon">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
-        <p class="backdrop-txt">Leave your contacts and we will call you back</p>
-       <form class="modal-form">
-        <div class="modal-field">
-          <label for="Name" class="txt-modal">Name</label>
-          <div class="fild-icon">
-            <svg class="form-icon" width="18px" height="18px">
-              <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
+<!-- modalwindow ------------  -->
+      <div class="backdrop is-open">
+        <div class="modal">
+          <button class="icon-closed-button">
+            <svg class="icon-closed" width="8" height="8" aria-label="close modal icon">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
-            <input class="modal-input" type="text" id="Name" required>
+          </button>
+          <p class="backdrop-txt">Leave your contacts and we will call you back</p>
+         <form class="modal-form">
+          <div class="modal-field">
+            <label for="Name" class="txt-modal">Name</label>
+            <div class="fild-icon">
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
+              </svg>
+              <input class="modal-input" type="text" id="Name" required>
+            </div>
+            
           </div>
-          
-        </div>
-        <div class="modal-field">
-          <label for="tel" class="txt-modal">Phone</label>
-          <div class="fild-icon">
-            <svg class="form-icon" width="18px" height="24px">
-              <use href="./images/icons.svg#icon-phone-black-18dp-1" ></use>
-            </svg>
-            <input class="modal-input" type="tel" id="tel" required
-          pattern="[0-9]{10}">
+          <div class="modal-field">
+            <label for="tel" class="txt-modal">Phone</label>
+            <div class="fild-icon">
+              <svg class="form-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1" ></use>
+              </svg>
+              <input class="modal-input" type="tel" id="tel" required
+            pattern="[0-9]{10}">
+            </div>
+            
           </div>
-          
-        </div>
-        <div class="modal-field">
-          <label for="email" class="txt-modal">Email</label>
-          <div class="fild-icon">
-            <svg class="form-icon" width="18px" height="18px">
-              <use  href="./images/icons.svg#icon-email-black-18dp-1" ></use>
-            </svg>
-            <input class="modal-input" type="email" id="email" required>
+          <div class="modal-field">
+            <label for="email" class="txt-modal">Email</label>
+            <div class="fild-icon">
+              <svg class="form-icon" width="18px" height="18px">
+                <use  href="./images/icons.svg#icon-email-black-18dp-1" ></use>
+              </svg>
+              <input class="modal-input" type="email" id="email" required>
+            </div>
+           
           </div>
          
-        </div>
+          <div class=" modal-field">
+            <label for="Comment" class="txt-modal">Comment</label>
+             <textarea class="comet-input" type="text" id="Comment" required></textarea>
+          </div>
+  
+          <div class="modal-field">         
+            <input class="check visually-hidden" type="checkbox" id="check" value="Y" required>
+            <label for="check" class="txt-modal label-chek">
+              <span class="new-checkbox">
+              <svg class="halochka" width="16px" height="16px" fill="transparent">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg></span>
+              I accept the terms and conditions of the 
+              <a class="color-acent" href=""> Privacy Policy</a>
+              
+            </label>
+          </div>
+          <button type="submit" class="button">Send</button>
+         </form>
        
-        <div class=" modal-field">
-          <label for="Comment" class="txt-modal">Comment</label>
-           <textarea class="comet-input" type="text" id="Comment" required></textarea>
-        </div>
-
-        <div class="modal-field">         
-          <input class="check visually-hidden" type="checkbox" id="check" value="Y" required>
-          <label for="check" class="txt-modal label-chek">
-            <span class="new-checkbox">
-            <svg class="halochka" width="16px" height="16px" fill="transparent">
-              <use href="./images/icons.svg#icon-click"></use>
-            </svg></span>
-            I accept the terms and conditions of the 
-            <a class="color-acent" href=""> Privacy Policy</a>
-            
-          </label>
-        </div>
-        <button type="submit" class="button">Send</button>
-       </form>
-     
-       </div>
-    </div>
+         </div>
+      </div>
+    </footer>
+    
     
   </body>
 </html>
