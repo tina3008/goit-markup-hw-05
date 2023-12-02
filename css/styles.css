@@ -460,6 +460,7 @@ padding: 100px 0 100px;
 .footer_main .container{
 	display: flex;
 	align-items: baseline;
+
 }
 
 .footer_text{
@@ -481,7 +482,7 @@ padding: 100px 0 100px;
 	display: block;
 	width: 208px;
 }
-.footer_media{
+ .footer_media{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -490,6 +491,7 @@ padding: 100px 0 100px;
 
 	display:block;
 	margin-bottom: 16px;
+
 	}
 	
 	.inet-contact-footer{
@@ -660,4 +662,60 @@ font-weight: 400;
 line-height: 16px;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
+}
+/* footer send email------------- */
+
+.footer-form{
+	display: flex;
+	width: 132px;
+	margin-left: 80px;
+	align-items: center;
+}
+.footer_send{
+	color: #FFFFFF;
+	margin-bottom: 16px;
+	display: block;
+}
+.footer-input{
+	width: 264px;
+	height: 40px;
+	border-radius: 4px;
+border: 1px solid  #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: transparent;
+color: #FFF;
+margin-right: 24px;
+}
+.footer-butom{
+	cursor: pointer;
+	background-color: #4D5AE5; 
+	color: #FFFFFF;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	padding: 8px 24px;
+	
+	gap: 10px;
+	border-radius: 4px;
+	/* rgba(0, 0, 0, 0.15); */
+
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	
+	min-width: 169px;
+	height: 40px;
+	border: none;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
+
+}
+.footer-butom:hover, ..footer-butom:focus{
+	background-color: #404BBF; 
+}
+.icon-footer{
+	fill: #FFFFFF;
+	
+	margin-left: 16px;
+	
 }
