@@ -513,10 +513,10 @@ padding: 100px 0 100px;
 	background-color: rgba(46, 47, 66, 0.40);
 	z-index: 999;
 
-visibility: hidden;
+/* visibility: hidden;
 opacity: 0;
 pointer-events: none;
-transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 }
 .backdrop.is-open:{
@@ -610,7 +610,9 @@ padding-left: 38px;
 
 }
 .modal-input:hover, .modal-input:focus{
-	border-color: #4D5AE5;
+	border-color: #4D5AE5; 
+
+
 }
 
 .txt-modal{
@@ -637,7 +639,8 @@ line-height: 1.17;
 .modal-input:focus + .form-icon
 {
 	fill: #4D5AE5;
-stroke:#4D5AE5 ;}
+
+}
 
 .comet-input{
 	height: 120px;
@@ -645,13 +648,24 @@ stroke:#4D5AE5 ;}
 	width: 100%;
 	border-radius: 4px;
 	border: 1px solid  rgba(46, 47, 66, 0.40);
-outline: 0px;
+outline: 0px transparent;
 background-color: transparent;
 transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-bottom: 16px;
+font-size: 12px;
+line-height: 1.17; 
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+resize: none;
 }
 .comet-input::placeholder{
 	color: #8E8F99;
+}
+
+.comet-input:focus {
+	border-color: #4D5AE5; 
+	
+	
 }
 .new-checkbox{
 	width: 16px;
@@ -684,6 +698,11 @@ line-height: 16px;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
 }
+.modal-check{
+	margin-bottom: 24px;
+}
+
+
 /* footer send email------------- */
 
 .footer-form{
