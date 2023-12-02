@@ -505,7 +505,7 @@
           <form class="footer-form">
           
             <label class="footer_label" for="foter-email">
-            <input class="footer-input" type="email" id="foter-email" required placeholder="E-mail">
+            <input class="footer-input" type="email" id="foter-email" name="foter-email" required placeholder="E-mail">
           </label>
          
                <button type="submit" class="footer-butom">Subscribe
@@ -533,33 +533,37 @@
         <p class="backdrop-txt">Leave your contacts and we will call you back</p>
        <form class="modal-form">
         <div class="modal-field">
-          <label for="Name" class="txt-modal">Name</label>
+          <label for="user-name" class="txt-modal">Name</label>
           <div class="fild-icon">
+          <input class="modal-input" type="text" id="user-name" name="user-name" required>
+
             <svg class="form-icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
             </svg>
-            <input class="modal-input" type="text" id="Name" required>
+            
           </div>
           
         </div>
         <div class="modal-field">
           <label for="tel" class="txt-modal">Phone</label>
           <div class="fild-icon">
+            <input class="modal-input" type="tel" id="tel" required
+            pattern="[0-9]{10}">
             <svg class="form-icon" width="18px" height="24px">
               <use href="./images/icons.svg#icon-phone-black-18dp-1" ></use>
             </svg>
-            <input class="modal-input" type="tel" id="tel" required
-          pattern="[0-9]{10}">
+           
           </div>
           
         </div>
         <div class="modal-field">
           <label for="email" class="txt-modal">Email</label>
           <div class="fild-icon">
+            <input class="modal-input" type="email" id="email" required>
             <svg class="form-icon" width="18px" height="18px">
               <use  href="./images/icons.svg#icon-email-black-18dp-1" ></use>
             </svg>
-            <input class="modal-input" type="email" id="email" required>
+           
           </div>
          
         </div>
