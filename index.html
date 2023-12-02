@@ -560,7 +560,7 @@
           <label for="email" class="txt-modal">Email</label>
           <div class="fild-icon">
             <input class="modal-input" type="email" id="email" required>
-            <svg class="form-icon" width="18px" height="18px">
+            <svg class="form-icon" width="18px" height="24px">
               <use  href="./images/icons.svg#icon-email-black-18dp-1" ></use>
             </svg>
            
@@ -568,14 +568,17 @@
          
         </div>
        
-        <div class=" modal-field">
+        <div class=" modal-check">
           <label for="user-comment" class="txt-modal">Comment</label>
            <textarea class="comet-input" id="user-comment"  name="user-comment"  placeholder="Text input" required></textarea>
         </div>
 
         <div class="modal-check">         
           
-          <label for="user-privacy" class="txt-modal label-chek">
+          <input class="check visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true" required>  
+         
+
+          <label for="user-privacy" class="label-chek ">
             
             <span class="new-checkbox">
             <svg class="halochka" width="10px" height="8px" fill="transparent">
@@ -584,7 +587,6 @@
             I accept the terms and conditions of the 
             <a class="color-acent" href=""> Privacy Policy</a>
           </label>
-            <input class="check visually-hidden" type="checkbox" id="user-privacy" value="true" required>  
          
         </div>
         <button type="submit" class="button">Send</button>
